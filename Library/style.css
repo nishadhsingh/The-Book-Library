@@ -1,0 +1,102 @@
+
+
+html{height: 100%;}
+body{min-height:100%;padding: 0px;margin: 0px;}
+p{margin:5px;display: inline;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html,body
+{
+    font-family: 'Roboto', sans-serif;
+    color: #475569;
+    
+}
+
+.mainbody
+{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    padding: 0px;
+}
+
+.sidebar
+{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+
+
+}
+Form
+{
+     
+     
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    flex:0 1 auto;
+    gap: 15px;
+}
+input label{border-radius: 1%;border: solid olive 1px;padding: 15px;}
+
+.container
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: bisque;
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    gap:15px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    height: 300px;
+    width: max-content;
+    gap: 25px;
+    background-color: antiquewhite;
+    border-radius: 5%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 3%;
+  }
+
+  button
+  {
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+  }
+
+  .submit
+  {
+    height: max-content;
+    width: max-content;
+    padding: 5px;
+  }
